@@ -1,0 +1,28 @@
+{
+    "_Info": [
+      "This is the JSON based Configuration for Send_To_SN_ETS",
+      "",
+      "Please do not edit any fields without permission."
+    ],
+    "InternalInfo": {
+      "project": "Send_To_SN_ETS",
+      "Modified": "03/23/23",
+      "Author": "Jon Cavallo"
+    },
+    "Basic": {
+        "_instance": "API Host",
+        "instance": "cai.service-now.com",
+        "_user": "API User",
+        "user": "ps.ets.integration.user",
+        "_keyfile": "API Secure Password",
+        "keyfile": "send_to_SNOW_PJC.key",
+        "_Environment": "Valid is: Production, Testing",
+        "Environment": "Production"
+    },
+    "Logging": {
+      "_enabled": "Boolean / Valid is: true or false",
+      "enabled": "true",
+      "_level": "Valid: 'DEBUG', 'INFO', 'WARNING', 'ERROR'",
+      "level": "INFO"
+    }
+  }

@@ -1,0 +1,12 @@
+---
+- name: Check Spooler Service
+  hosts: all
+    
+  tasks:
+  
+  - name: Start spooler Service
+    win_service:
+     name: Spooler
+     start_mode: auto
+     state: started
+#    when: Spooler.exists
