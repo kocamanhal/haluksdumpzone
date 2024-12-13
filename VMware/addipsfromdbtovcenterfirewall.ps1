@@ -1,9 +1,9 @@
 $serverInstance = "ny5et031\support"
 $database = "ServerStorage"
 $tableName = "vcenterfirewall"
-$vcServer = 'ny5vc002.corp.pjc.com'
+$vcServer = 'escvc204.corp.pjc.com'
 $username = "administrator@vsphere.local"
-$password = 'V$ph3r3@dmin'
+$password = '***'
 
 
 
